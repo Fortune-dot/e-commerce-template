@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download our App</title>
+    <link rel="stylesheet" href="./css/footer-css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+   <link rel="stylesheet" href="style.css" />
+     
+  
+</head>
+<style>
+    @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+html, body {
+  overflow: hidden;
+}
+
+ul {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.download {
+  width: 200px;
+  height: 75px;
+  background: black;
+  float: left;
+  border-radius: 5px;
+  position: relative;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+.download > .fa {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+
+.df,
+.dfn {
+  position: absolute;
+  left: 70px;
+}
+
+.df {
+  top: 20px;
+  font-size: .68em;
+}
+
+.dfn {
+  top: 33px;
+  font-size: 1.08em;
+}
+
+.download:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+</style>
+<body>
+   <!--navbar-->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand name" href="index.html">Comrademarket.com</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Categories</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+<!--navbar-->
+
+
+    <ul>
+        <li>
+            <a href="https://appsenjoy.com/XLG9K">
+          <div class="download android">
+            <i class="fa fa fa-android fa-3x"></i>
+            <span class="df">Download from</span>
+            <span class="dfn">Google Play</span>
+          </div>
+        </a>
+        </lI>
+        <li>
+          <div class="download apple">
+            <i class="fa fa fa-apple fa-3x"></i>
+            <span class="df">Download from</span>
+            <span class="dfn">App Store</span>
+          </div>
+        </li>
+        <li>
+          <div class="download windows">
+            <i class="fa fa fa-windows fa-3x"></i>
+            <span class="df">Download from</span>
+            <span class="dfn">Windows Store</span>
+          </div>
+        </li>
+      </ul>
+</body>
+</html>
